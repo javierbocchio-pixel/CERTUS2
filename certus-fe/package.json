@@ -1,0 +1,39 @@
+{
+  "name": "certus-fe",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.vue --max-warnings=0",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@vee-validate/zod": "^4.12.5",
+    "axios": "^1.7.7",
+    "pinia": "^2.2.2",
+    "vee-validate": "^4.12.5",
+    "vue": "^3.5.8",
+    "vue-router": "^4.4.5",
+    "vuetify": "^3.7.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@typescript-eslint/eslint-plugin": "^8.8.1",
+    "@typescript-eslint/parser": "^8.8.1",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "eslint": "^9.11.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vue": "^9.28.0",
+    "prettier": "^3.3.3",
+    "sass": "^1.79.4",
+    "vite": "^5.4.8",
+    "vite-plugin-vuetify": "^2.0.3",
+    "typescript": "^5.6.2"
+  }
+}
